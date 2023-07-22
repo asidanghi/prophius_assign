@@ -32,3 +32,34 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+# Terraform specific
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
+# AWS specific
+*.pem
+*.pem.pub
+
+# Environment specific
+.env
+
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Logs
+*.log
+
+# MacOS specific
+.DS_Store
+
+# Editor specific (add more if needed)
+.vscode/
+.idea/
+*.sublime-*
+
